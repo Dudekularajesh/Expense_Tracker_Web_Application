@@ -59,6 +59,9 @@ A responsive and interactive web application for tracking income and expenses in
 |--------------|-------------------|
 | ![My Home page](./homepage.png) | ![My Login Page](./loginpage.png) |
 
+🎥 Demo Video (Optional)
+📽️ https://youtu.be/3rgz_XHSCos
+
 ## 🚀 Getting Started
 
 ### 👉 Run Locally
