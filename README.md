@@ -17,7 +17,7 @@ A responsive and interactive web application for tracking income and expenses in
 
 📁 Expense Tracker/
 
-├── home.html # Landing page
+├── index.html # Landing page
 
 ├── Login.html # Main expense tracker interface
 
@@ -65,13 +65,13 @@ A responsive and interactive web application for tracking income and expenses in
 
 1. Clone the project:
    git clone https://github.com/Dudekularajesh/Expense_Tracker_Web_Application.git
-Open home.html in any modern browser.
+Open index.html in any modern browser.
 
 🌐 View Live
 Visit the live site (if hosted with GitHub Pages):
 https://dudekularajesh.github.io/Expense_Tracker_Web_Application/
 
-Make sure your homepage file is named home.html
+Make sure your homepage file is named index.html
 
 📄 License
 This project is licensed under the MIT License – free to use, modify, and distribute.
