@@ -109,7 +109,7 @@ header{
 
 @media only screen and (max-width: 768px) {
     header{
-    background-color: black;
+    background-color: rgb(24, 76, 76);
     color: white;
     font-size: large;
     padding-left: 10px;
@@ -133,7 +133,7 @@ header{
     }
 
     #add-button{
-    background-color: black;
+    background-color: rgb(24, 76, 76);
     border-radius: 8px;
     font-size: x-large;
     font-size: 600;
@@ -157,7 +157,7 @@ header{
     }
 
     .card{
-    background-color: black;
+    background-color: rgb(24, 76, 76);
     border: 0px;
     height: 150px;
     width: 300px;
@@ -171,7 +171,7 @@ header{
     }
 
     #header-row{
-    background-color: black;
+    background-color: rgb(24, 76, 76);
     color: white;
     margin: auto;
     }
