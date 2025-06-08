@@ -43,7 +43,7 @@ body{
     margin-left: 15px;
 }
 #name{
-    font-size: 100px;
+    font-size: 70px;
     color: #476EF7;
 }
 .form-floating{
@@ -66,10 +66,10 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-    .solid-circle{
+  .solid-circle{
     height: 800px;
     width: 800px;
-    background: black;
+    background: rgb(24, 76, 76);
     border-radius: 50%;
     position: absolute;
     right: -600px;
@@ -78,16 +78,26 @@ body{
     }
 
     #name{
-    font-size: 100px;
-    color: black;
+    font-size: 70px;
+    color: rgb(2, 95, 95);
     }
 
     #login{
-        background-color: black;
+        background-color: rgb(2, 95, 95);
     }
 
     #click-here-button{
-        color: black;
+        color: rgb(2, 95, 95);
+    }
+
+    h5{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    #click-here-button{
+        font-size: 16px;
+        font-weight: bolder;
     }
 
 }
