@@ -37,8 +37,12 @@
       const nameField = document.getElementById('floatingInput');
 
       loginButton.addEventListener('click', function() {
-        if (nameField.value.trim() === '') {
+        const nameValue=nameField.value.trim();
+        if (nameValue === '') {
           alert('Please enter your name!');
+          event.preventDefault();
+        }else if (!/^[a-zA-Z ]+$/.test(nameValue)){
+          alert('Please Enter Only Names!');
           event.preventDefault();
         }
       });
