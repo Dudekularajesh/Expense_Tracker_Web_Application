@@ -8,6 +8,8 @@ header{
     color: white;
     font-size: x-large;
     padding-left: 25px;
+     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .input-form{
@@ -113,6 +115,8 @@ header{
     color: white;
     font-size: large;
     padding-left: 10px;
+     padding-top: 10px;
+    padding-bottom: 10px;
 
 }
     
