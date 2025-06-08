@@ -57,7 +57,7 @@ A responsive and interactive web application for tracking income and expenses in
 
 | Landing Page | Expense Dashboard |
 |--------------|-------------------|
-| ![My Home page](./screenshots/homepage.png) | ![My Login Page](./screenshots/loginpage.png) |
+| ![My Home page](./homepage.png) | ![My Login Page](./loginpage.png) |
 
 ## 🚀 Getting Started
 
