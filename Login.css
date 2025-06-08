@@ -1,0 +1,179 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header{
+    background-color: #476EF7;
+    color: white;
+    font-size: x-large;
+    padding-left: 25px;
+}
+
+.input-form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+    padding: 25px 0px;
+    width: 95%;
+    margin: auto;
+    
+}
+
+.form-floating{
+    box-shadow: 0px 0px 10px rgba(83, 115, 191, 0.25);
+    border-radius: 10px;
+    width: 30%;
+    border: 1px;
+}
+ .form-floating-trans{
+    width: 250px;
+    height: 55px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.20);
+    border-radius: 10px;
+    width: 30%;
+    border: 1px;
+}
+
+#add-button{
+    background-color: #476EF7;
+    color:white;
+    border-radius: 50%;
+    font-size: x-large;
+    font-size: 600;
+    height: 50px;
+    width: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+.card-body{
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.card{
+    background-color: #476EF7;
+    border: 0px;
+    height: 150px;
+    width: 18rem;
+}
+
+.transaction-table{
+    border: 1px black solid;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+    padding: 0px;
+}
+
+#header-row{
+    background-color: #476EF7;
+    color: white;
+    margin: auto;
+}
+
+#header-row th{
+    padding: 15px 10px;
+}
+.delete-button,.delete-button:hover{
+    border-radius: 50%;
+    font-size: x-large;
+    font-size: 600;
+    height: 50px;
+    width: 50px;
+    padding: 8px 0px;
+    border: none;
+    background-color: #de3030;
+}
+
+#header-data td{
+    padding: 15px 10px 0px 20px;
+    margin: auto;
+}
+
+.page{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+    header{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding-left: 10px;
+
+}
+    
+    .input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+    gap: 15px;
+    }
+    
+    .form-floating{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    width: 300px;
+    border: 1px;
+    }
+
+    #add-button{
+    background-color: black;
+    border-radius: 8px;
+    font-size: x-large;
+    font-size: 600;
+    height: 50px;
+    width: 300px;
+    }
+    .form-floating-trans{
+        width: 300px;
+        height: 50px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    }
+
+    .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding-left: 50px;
+    align-items: center;
+    }
+
+    .card{
+    background-color: black;
+    border: 0px;
+    height: 150px;
+    width: 300px;
+    }
+
+    .card-body{
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+    border-width: 100px;
+    }
+
+    #header-row{
+    background-color: black;
+    color: white;
+    margin: auto;
+    }
+}
+
