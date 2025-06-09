@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header{
+    background-color: #476EF7;
+    border: 1px black solid;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+    padding: 0px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.form{
+    background-color: #476EF7;
+    border: 1px black solid;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+
+.form-control{
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.30);
+    color: black;
+    margin: auto;
+    width: 95%;
+}
+
+.form-label{
+    font-size: large;
+    font-weight: 900;
+}
+
+.button{
+    background-color: black;
+    border-radius: 8px;
+    width: 95%;
+    padding: 8px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        height: 100vh;
+    }
+    header{
+    background-color: rgb(24, 76, 76);
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: 500;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+    padding: 0px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    }
+
+    .form{
+    background-color: rgb(24, 76, 76);
+    border: 1px black solid;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+    padding: 0px;
+    text-align: center;
+    color: white;
+    }
+
+    .button{
+    background-color: black;
+    border-radius: 8px;
+    width: 90%;
+    padding: 8px;
+    color: white;
+}
+
+}
